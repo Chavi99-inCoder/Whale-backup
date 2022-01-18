@@ -4741,6 +4741,103 @@
 </div>
 <!-- /page -->
 
+<div data-role="page" id="profileDetailsedit">  
+    <br/>
+    <div class="bookingbackbutton">
+        <a href="#profile" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext">Close</a>
+    </div>
+
+    <div class="bookingHeader">
+        <h4>My Profile Details</h4>
+    </div>
+    
+    <div class="" >
+        <center>
+            <div>
+                <img src="img/profilepic.png" style=" border-radius: 50%" width="20%"  height="5%"><br/>
+                
+            </div>
+                
+            <div style="margin-top: -5%;">
+                <h2 style="font-size: 90%;">Chavika.kodithuwakku</h2>
+                <div style="margin-top: -4%;">
+                    <h2 style="font-size: 85%; color: red;">Level 1.1</h2>
+                </div>
+            </div>
+        </center>
+   </div>
+   <br/>
+
+   
+
+
+
+    <div data-role="popup" id="popupprofedit" data-theme="a" class="ui-corner-all">
+        <form style="margin-left: 10%; margin-right: 10%;">
+        <h3>Are you sure you want to Edit Your Details?</h3>
+            <div style="padding:10px 20px;">               
+                <button type="submit" style="background-color: white; color: #1f069d;border-radius: 15px; border-color: #1f069d;" class="ui-btn ui-shadow-icon ui-btn-b">Cancel</button>
+                <a type="submit" href="#editprofileDetails" style="background-color: #1f069d; color: white;border-radius: 15px;" class="ui-btn ui-shadow-icon ui-btn-b">Yes</a>
+                
+            </div>
+        </form>
+    </div>
+
+    <div data-role="popup" id="popuplogout" data-theme="a" class="ui-corner-all">
+            <form style="margin-left: 10%; margin-right: 10%;">
+            <h2>Are you sure you want to Log Out?</h2>
+                <div style="padding:10px 20px;">               
+                    <button type="submit" style="background-color: white; color: #1f069d;border-radius: 15px; border-color: #1f069d;" class="ui-btn ui-shadow-icon ui-btn-b">Cancel</button>
+                    <a type="submit" href="#login" style="background-color: #1f069d; color: white;border-radius: 15px;" class="ui-btn ui-shadow-icon ui-btn-b">Yes</a>
+                    
+                </div>
+            </form>
+        </div>
+    
+
+    
+
+    <div data-role="popup" id="popupPadded" class="ui-content">
+        <p>This is a popup with the <code>ui-content</code> class added to the popup container.</p>
+    </div>
+ 
+   <div>
+    <form>
+        <div style="margin-left: 10%; margin-right: 10%;">
+            <label for="text-basic"><b>Username:</b></label>
+            <label for="text-10" style="margin-left: 4%;">Chavika.kodithuwakku</label>
+            <label for="text-basic"><b>Email:</b></label>
+            <label for="text-10" style="margin-left: 4%;">chavika.kodithuwakku@whale.com</label>
+        </div>
+        <br/>
+        <div style="margin-left: 10%; margin-right: 10%;">
+            <a  style="background-color: #1f069d; color: white;border-radius: 15px;" class="ui-btn ui-shadow-icon ui-btn-b" href="#popupprofedit" data-rel="popup" data-transition="pop">Edit Details</a>
+            <br/>
+            <a href="#viewFavourit1" style="background-color: #1f069d; color: white;border-radius: 15px;" class="ui-btn ui-shadow-icon ui-btn-b">View Favourite</a>
+            <br/>
+            <a href="#" style="background-color: #1f069d; color: white;border-radius: 15px;" class="ui-btn ui-shadow-icon ui-btn-b">View Puzzle</a>
+            <br/>
+            <button style="border-radius: 25px; border: 2px solid #1f069d; padding: 10px;" class="ui-btn"><a href="#popuplogout" data-rel="popup" data-transition="pop"  style="color: #1f069d;;" >Log Out</a></button>
+        </div>
+    </form>
+   </div>
+
+   <br/><br/><br/><br/><br/><br/>
+    
+    <div data-role="navbar" class="footer">
+        <table width="100%">
+            <tr >
+                <td><li><a href="#viewFavourit1" data-icon="location">Location</a></li></td>
+                <td><li><a href="#home" data-icon="home">Home</a></li></td>
+                <td><li><a href="#profile" data-icon="user">Profile</a></li></td>
+            </tr>
+        </table>
+    </div><!-- /navbar -->
+    
+
+</div>
+<!-- /page -->
+
 <!-- Start of payment confirmation -->
 <div data-role="page" id="editprofileDetails">  
     <br/>
@@ -4761,7 +4858,7 @@
             </div>
                 
             <div style="margin-top: -5%;">
-                <h2 style="font-size: 90%;">Chavika.Kodithuwakku</h2>
+                <h2 style="font-size: 90%;">Chavika.kodi</h2>
                 <div style="margin-top: -4%;">
                     <h2 style="font-size: 85%; color: red;">Level 1.1</h2>
                 </div>
@@ -4799,7 +4896,7 @@
         </div>
         <br/>
         <div style="margin-left: 10%; margin-right: 10%;">
-            <a  style="background-color: #1f069d; color: white;border-radius: 15px;" class="ui-btn ui-shadow-icon ui-btn-b"  href="#profileDetails">Save</a>
+            <a  style="background-color: #1f069d; color: white;border-radius: 15px;" class="ui-btn ui-shadow-icon ui-btn-b"  href="#profileDetailsedit">Save</a>
             <br/>
             <button style="border-radius: 25px; border: 2px solid #1f069d; padding: 10px;" class="ui-btn"><a style="color: #1f069d;;" href="#profileDetails">Cancel</a></button>
         </div>
